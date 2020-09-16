@@ -21,9 +21,16 @@ def assembled_aoh
 end
 
 def literal_aoh
+ cast=[]
+  cast = [
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G
+  ]
  
- 
- [[0][1][2][3][4]]
+ cast[[0][1][2][3][4]]
   
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
