@@ -21,6 +21,7 @@ def assembled_aoh
 end
 
 def literal_aoh
+  cast=
   cast[:name][:occupation]
   
   # Using Array literal syntax only, build a nested array that uses the data in
